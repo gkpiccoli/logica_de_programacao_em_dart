@@ -24,7 +24,7 @@ main() {
 
   double resultado = peso / (altura * altura);
 
-  print('\n\n');
+  print('\n\n'); //pulando linha
   print('Nome: $name');
   if (resultado > 25) {
     print('Você está gordo!');
