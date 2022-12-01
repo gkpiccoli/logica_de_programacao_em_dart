@@ -7,9 +7,9 @@ import 'dart:io';
 // 21.7
 
 main() {
-  print('Digite seu nome');
+  print('Digite seu nome:');
   final String? name = stdin.readLineSync();
-  print('Digite seu peso');
+  print('Digite seu peso:');
   final String? pesoString = stdin.readLineSync();
 
   print('Digite sua altura');
@@ -23,11 +23,11 @@ main() {
   print('\n\n');
   print('Nome: $name');
   if (resultado > 25) {
-    print('você está gordo');
+    print('Você está gordo!');
   } else if (resultado < 18) {
-    print('você está magro');
+    print('Você está magro!');
   } else {
-    print('você está com peso normal');
+    print('Você está com peso normal!');
   }
 }
 // int = inteiro (1, 2, 3 ,4 ,5 ,6 ,7 )
