@@ -14,9 +14,13 @@ main() {
 
   print('Digite sua altura');
   final String? alturaString = stdin.readLineSync();
+  // ? vou ter certeza que o valor nao vai ficar nulo //
+  // o parse (párss) analisa...
 
   double peso = double.parse(pesoString!);
   double altura = double.parse(alturaString!);
+
+  // ! = null safety //
 
   double resultado = peso / (altura * altura);
 
@@ -27,7 +31,7 @@ main() {
   } else if (resultado < 18) {
     print('Você está magro!');
   } else {
-    print('Você está com peso normal!');
+    print('Prezado $name, você está com peso normal!');
   }
 }
 // int = inteiro (1, 2, 3 ,4 ,5 ,6 ,7 )
