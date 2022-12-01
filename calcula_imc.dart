@@ -2,7 +2,7 @@ void main(List<String> args) {
   // imc
   // peso dividido pela altura vezes dois;
   // operaçẽs encapsuladas tem prioridade na exec;
-  double peso = 84.2;
+  double peso = 84.2; 
   double altura = 1.88;
   double resultado = peso / (altura * altura);
 

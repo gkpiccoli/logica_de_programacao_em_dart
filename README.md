@@ -7,3 +7,6 @@ Anotações e códigos desenvolvidos durante os estudos;
 1 - hello_world;
 2 - sintaxe é a forma q é escrito //  semântica é o q significa;
 3 - função main;
+4 - variáveis, strings e concatenação;
+5 - exercício 1 - criar uma logica para IMC;
+6 - booleanos
