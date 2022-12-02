@@ -11,11 +11,11 @@ void main() {
   print('\n\n');
   print('Nome: $name');
   if (resultado > 25) {
-    print('você está gordo');
+    print('você está gordo!');
   } else if (resultado < 18) {
-    print('você está magro');
+    print('você está magro!');
   } else {
-    print('você está com peso normal');
+    print('você está com peso normal!');
   }
 }
 
@@ -24,7 +24,7 @@ double calcularImc({required double peso, required double altura}) {
 }
 
 String pegarNome() {
-  print('Digite seu nome');
+  print('Digite seu nome:');
   final String? name = stdin.readLineSync();
   if (name == null) {
     return 'Anônimo';
@@ -34,7 +34,7 @@ String pegarNome() {
 }
 
 double pegarPeso() {
-  print('Digite seu peso');
+  print('Digite seu peso:');
   final String? pesoString = stdin.readLineSync();
   if (pesoString == null) {
     return 0.0;
@@ -44,7 +44,7 @@ double pegarPeso() {
 }
 
 double pegarAltura() {
-  print('Digite sua altura');
+  print('Digite sua altura:');
   final String? alturaString = stdin.readLineSync();
   if (alturaString == null) {
     return 0.0;
