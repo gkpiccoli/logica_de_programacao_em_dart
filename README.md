@@ -15,3 +15,12 @@ Anotações e códigos desenvolvidos durante os estudos;
 6 - booleanos
 7 - inputs 
 8 - funções
+
+#### Tipagem: 
+
+
+- Tipagem
+- Listas
+- Map
+- Loop w/ while
+- Loop w/ for
