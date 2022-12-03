@@ -2,7 +2,10 @@
 
 Anotações e códigos desenvolvidos durante os estudos;
 
-## Masterclass Flutterando
+## Masterclass Flutterando:
+
+
+#### Algoritmos 
 
 1 - hello_world;
 2 - sintaxe é a forma q é escrito //  semântica é o q significa;
