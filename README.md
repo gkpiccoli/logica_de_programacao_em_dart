@@ -10,3 +10,5 @@ Anotações e códigos desenvolvidos durante os estudos;
 4 - variáveis, strings e concatenação;
 5 - exercício 1 - criar uma logica para IMC;
 6 - booleanos
+7 - inputs 
+8 - funções
