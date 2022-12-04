@@ -11,6 +11,7 @@ Anotações e códigos desenvolvidos durante os estudos;
 - função main
 - variáveis, strings e concatenação
 - exercício 1 - criar uma logica para IMC
+- código refatorado
 - booleanos
 - inputs
 - funções
