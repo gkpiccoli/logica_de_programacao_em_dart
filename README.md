@@ -15,6 +15,7 @@ Anotações e códigos desenvolvidos durante os estudos;
 - booleanos
 - inputs
 - funções
+- parâmetros (posicionais e <+ nomeados)
 
 
 #### Tipagem:
