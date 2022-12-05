@@ -15,7 +15,7 @@ Anotações e códigos desenvolvidos durante os estudos;
 - booleanos
 - inputs
 - funções
-- exercício 2
+
 
 #### Tipagem:
 
@@ -24,3 +24,4 @@ Anotações e códigos desenvolvidos durante os estudos;
 - Map
 - Loop w/ while
 - Loop w/ for
+- Exercício 2
