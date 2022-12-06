@@ -12,6 +12,7 @@ main() {
     if (input == 'add') {
       print('=== Adicione um produto ===');
       var produto = stdin.readLineSync();
+      produtos.add(produto);
     } else if (input == 'imprimir') {
       print('=== Todos os produtos cadastrados ===');
       print('/n');
