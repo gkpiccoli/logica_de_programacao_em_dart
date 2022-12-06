@@ -15,7 +15,7 @@ main() {
       produtos.add(produto);
     } else if (input == 'imprimir') {
       print('=== Todos os produtos cadastrados ===');
-      print('/n');
+      print('\n');
       for (var i = 0; i < produtos.length; i++) {
         print(produtos[i]);
       }
