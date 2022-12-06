@@ -18,11 +18,21 @@ Anotações e códigos desenvolvidos durante os estudos;
 - parâmetros (posicionais e <+ nomeados)
 
 
-#### Tipagem:
-
+#### Tipagem, sintaxes:
 - Tipagem
 - Listas
 - Map
 - Loop w/ while
 - Loop w/ for
 - Exercício 2
+
+#### Lista de compras - Paradigma linear/modular 
+
+- App lista de compras
+- Comando para limpar o terminal
+
+#### POO (programação orientada à objetos)
+
+- Criação de classes
+- Instanciação 
+
