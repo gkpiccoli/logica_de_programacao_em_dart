@@ -33,6 +33,7 @@ Anotações e códigos desenvolvidos durante os estudos;
 
 #### POO (programação orientada à objetos)
 
-- Criação de classes
-- Instanciação 
+- Criação de classes - Instruções (quando uma função está dentro de um classe, se transforma em um método!!!)
+- Instanciação/Criação de objetos
+- Construtores
 
