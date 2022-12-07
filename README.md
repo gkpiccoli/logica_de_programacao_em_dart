@@ -36,4 +36,6 @@ Anotações e códigos desenvolvidos durante os estudos;
 - Criação de classes - Instruções (quando uma função está dentro de um classe, se transforma em um método!!!)
 - Instanciação/Criação de objetos
 - Construtores
+- Modelagem
+- Herança (Muito interessante pois posso extender classes reaproveitando muito código!)
 
