@@ -13,6 +13,9 @@ void main() {
 
   final pessoa3 = Medico(altura: 2.00, crm: 12344556, name: 'Juam', peso: 100);
 
+  final pessoa4 = Medico(crm: 12234, name: 'Maria', altura: 1.70, peso: 59);
+  print(pessoa4.calculaImc());
+
   print(pessoa.calculaImc());
   print(pessoa2.calculaImc());
   print(pessoa3.calculaImc());
