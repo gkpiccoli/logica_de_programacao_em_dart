@@ -12,7 +12,14 @@ void main(List<String> args) {
 
   // Posicionais Obrigatórios// a cor é opcional, podendo ser em qualquer ordem.
   mostrarMadura('Uva', 15, cor: 'Lilás'); // ('Uva', 15, cor: 'Azul')
+
+  funcQuantosDiasMadura(int dias) {
+    int diasParaMadura = 30;
+    int quantosDiasFaltam = diasParaMadura - colheita;
+    return quantosDiasFaltam;
+  }
 }
+
 // Função 'Madura'
 // (int dias) é um parâmetro
 // Parâmetro pertence à função
