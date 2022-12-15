@@ -1,7 +1,7 @@
 funcaoRecursiva(int contador, int condicaoDeParada) {
   print('Estamos a $contador iterações sem StackOverflow.');
   if (contador >= condicaoDeParada) {
-    r eturn;
+    return;
   }
   funcaoRecursiva(contador + 1, condicaoDeParada);
 }
