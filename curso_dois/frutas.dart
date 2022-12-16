@@ -33,13 +33,13 @@ bool funcMadura(int dias) {
 
 mostrarMadura(String nome, int dias, {required String? cor}) {
   if (dias >= 30) {
-    print('A $nome está madura');
+    print('A $nome está madura!');
   } else {
-    print('A $nome está verde');
+    print('A $nome está verde!');
   }
 
   if (cor != null) {
-    print('A $nome é $cor');
+    print('A $nome é $cor!');
   }
 }
 
