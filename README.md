@@ -7,7 +7,7 @@ Anotações e códigos desenvolvidos durante os estudos;
 #### Algoritmos:
 
 - hello_world
-- sintaxe é a forma q é escrito // semântica é o q significa
+- sintaxe é a forma que o código é escrito // semântica é o que significa realmente
 - função main
 - variáveis, strings e concatenação
 - exercício 1 - criar uma logica para IMC
