@@ -21,7 +21,7 @@ void main() {
   print(pessoa3.calculaImc());
 }
 
-// Herança herda todos os atributos da classe pai, fantástico!!!
+// Herança herda todos os atributos da classe pai, podendo ser remodelado/reutilizado!!!
 
 class Medico extends Pessoa {
   final int crm;
