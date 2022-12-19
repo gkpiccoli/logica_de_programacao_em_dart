@@ -61,6 +61,10 @@ class Alimento {
   double? peso;
   String? cor;
   Alimento(this.nome, this.peso, this.cor);
+
+  void printAlimento() {
+    print('Este $nome pesa $peso e é de cor $cor.');
+  }
 }
 
 class Legumes {
