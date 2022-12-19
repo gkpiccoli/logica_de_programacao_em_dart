@@ -55,3 +55,46 @@ class Fruta {
         'Ela está Madura? $isMadura');
   }
 }
+
+class Alimento {
+  String? nome;
+  double? peso;
+  String? cor;
+  Alimento(this.nome, this.peso, this.cor);
+}
+
+class Legumes {
+  String? nome;
+  double? peso;
+  String? cor;
+  bool? isprecisaCozinhar;
+
+  Legumes(this.nome, this.peso, this.cor, this.isprecisaCozinhar);
+}
+
+class Citricas {
+  String? nome;
+  double? peso;
+  String? cor;
+  int? diasDesdeColheita;
+  bool? isMadura;
+  double? nivelAzedo;
+
+  Citricas(
+    this.nome,
+    this.peso,
+    this.cor,
+    this.diasDesdeColheita,
+    this.isMadura,
+    this.nivelAzedo,
+  );
+}
+
+class Nozes {
+  String? nome;
+  double? peso;
+  String? cor;
+  int? diasDesdeColheita;
+  bool? isMadura;
+  bool? porcentagemOleoNatural;
+}
