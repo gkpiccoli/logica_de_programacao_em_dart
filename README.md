@@ -40,3 +40,10 @@ Anotações e códigos desenvolvidos durante os estudos;
 - Parâmetros
 - Herança (Muito interessante pois posso extender classes reaproveitando muito código!)
 
+
+
+Classes são modelos criados para representar objetos do mundo real de forma abstrata. Vai gerar organização e produtividade. Suas propriedades são as características que queremos armazenar referentes aos objetos.
+
+Construtores auxiliam no passo a passo da criação, será o método executado assim que o objeto for criado.
+
+Métodos são as funções contidas dentro das classes, o que vai determinar que comportamento eu quero que o aplicativo desempenhe ou o objeto que ele vá gerar.
