@@ -73,7 +73,8 @@ class Legumes {
   String? cor;
   bool? isprecisaCozinhar;
 
-  Legumes(this.nome, this.peso, this.cor, this.isprecisaCozinhar);
+  Legumes(this.nome, this.peso, this.cor, this.isprecisaCozinhar)
+      : super(nome, peso, cor);
 }
 
 class Citricas {
