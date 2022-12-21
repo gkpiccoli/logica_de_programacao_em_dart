@@ -63,7 +63,7 @@ class Alimento {
   Alimento(this.nome, this.peso, this.cor);
 
   void printAlimento() {
-    print('Este $nome pesa $peso e é de cor $cor.');
+    print('A fruta $nome pesa $peso e é de cor $cor.');
   }
 }
 
