@@ -1,5 +1,3 @@
-import 'dart:math';
-
 void main() {
   String nome = "Laranja";
   double peso = 100.2;
@@ -45,6 +43,7 @@ class Fruta extends Alimento {
   bool? isMadura;
 
   Fruta(nome, peso, cor, this.sabor, this.diasDesdeColheita, {this.isMadura})
+      // o param  is madura está entre {chaves} se torna opcional;
       : super(nome, peso, cor);
 //métodos =
   void estaMadura(int diasParaMadura) {
@@ -98,22 +97,24 @@ class Legumes extends Alimento {
   }
 }
 
-class Citricas {
-  String? nome;
-  double? peso;
-  String? cor;
-  int? diasDesdeColheita;
-  bool? isMadura;
+class Citricas extends Fruta {
   double? nivelAzedo;
 
   Citricas(
-    this.nome,
-    this.peso,
-    this.cor,
-    this.diasDesdeColheita,
-    this.isMadura,
-    this.nivelAzedo,
-  );
+    nome,
+    peso,
+    cor,
+    sabor,
+    diasDesdeColheita,
+    isMadura,
+    nivelAzedo,
+  ) : super(
+          nome,
+          peso,
+          cor,
+          sabor,
+          diasDesdeColheita,
+        );
 }
 
 class Nozes {
