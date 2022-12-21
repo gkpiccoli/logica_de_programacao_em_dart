@@ -31,6 +31,8 @@ mostrarMadura(String nome, int dias, {required String cor}) {
   print("A $nome é $cor.");
 }
 
+Fruta banana1 = ()
+
 int funcQuantosDiasMadura(int dias) {
   int diasParaMadura = 30;
   int quantosDiasFaltam = diasParaMadura - dias;
@@ -74,6 +76,10 @@ class Alimento {
   }
 
   // printAlimento() é um método!
+
+  
+
+  batata1.printAlimento()
 }
 
 class Legumes extends Alimento {
@@ -108,20 +114,20 @@ class Citricas extends Fruta {
     diasDesdeColheita,
     isMadura,
     nivelAzedo,
-  ) : super(
-          nome,
-          peso,
-          cor,
-          sabor,
-          diasDesdeColheita,
-        );
+  ) : super(nome, peso, cor, sabor, diasDesdeColheita);
+
+  void existeRefrigerante(bool existe) {
+    if (existe) {
+      print('Há refrigerante em estoque');
+    } else {
+      print('Não existe');
+    }
+  }
 }
 
-class Nozes {
-  String? nome;
-  double? peso;
-  String? cor;
-  int? diasDesdeColheita;
-  bool? isMadura;
-  bool? porcentagemOleoNatural;
+class Nozes extends Fruta {
+  double? porcentagemOleoNatural;
+
+  Nozes(nome, peso, cor, String sabor, int diasDesdeColheita)
+      : super(nome, peso, cor, sabor, diasDesdeColheita);
 }
