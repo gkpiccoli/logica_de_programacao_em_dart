@@ -60,21 +60,32 @@ class Alimento {
   String? nome;
   double? peso;
   String? cor;
-  Alimento(this.nome, this.peso, this.cor);
+
+  Alimento(
+    this.nome,
+    this.peso,
+    this.cor,
+  );
 
   void printAlimento() {
     print('A fruta $nome pesa $peso e é de cor $cor.');
   }
+
+  // printAlimento() é um método!
 }
 
-class Legumes {
-  String? nome;
-  double? peso;
-  String? cor;
+class Legumes extends Alimento{
+  
   bool? isprecisaCozinhar;
 
-  Legumes(this.nome, this.peso, this.cor, this.isprecisaCozinhar)
-      : super(nome, peso, cor);
+  Legumes(
+    nome,
+    peso,
+    cor,
+    this.isprecisaCozinhar,
+  ) : super(nome, peso, cor);
+
+  // o 'THIS' usa um parâmetro criado na própria classe 
 }
 
 class Citricas {
