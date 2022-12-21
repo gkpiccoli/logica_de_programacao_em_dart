@@ -1,3 +1,5 @@
+import 'dart:math';
+
 void main() {
   String nome = "Laranja";
   double peso = 100.2;
@@ -37,22 +39,23 @@ int funcQuantosDiasMadura(int dias) {
   return quantosDiasFaltam;
 }
 
-class Fruta {
-  String nome;
-  double peso;
-  String cor;
+class Fruta extends Alimento {
   String sabor;
   int diasDesdeColheita;
   bool? isMadura;
 
-  Fruta(this.nome, this.peso, this.cor, this.sabor, this.diasDesdeColheita,
-      {this.isMadura});
-
+  Fruta(nome, peso, cor, this.sabor, this.diasDesdeColheita, {this.isMadura})
+      : super(nome, peso, cor);
+//métodos =
   void estaMadura(int diasParaMadura) {
     isMadura = diasDesdeColheita >= diasParaMadura;
     print('A sua $nome foi colhida a $diasDesdeColheita dias e precisa de'
         ' $diasParaMadura dias para poder comer!'
         'Ela está Madura? $isMadura');
+  }
+
+  void fazerSuco() {
+    print('Seu suco de $nome está pronto');
   }
 }
 
@@ -74,8 +77,7 @@ class Alimento {
   // printAlimento() é um método!
 }
 
-class Legumes extends Alimento{
-  
+class Legumes extends Alimento {
   bool? isprecisaCozinhar;
 
   Legumes(
@@ -84,8 +86,16 @@ class Legumes extends Alimento{
     cor,
     this.isprecisaCozinhar,
   ) : super(nome, peso, cor);
+// super está chamando a classe superior à legumes - Essa é a herança!@gkpiccoli
+// o 'THIS' usa um parâmetro criado na própria classe
 
-  // o 'THIS' usa um parâmetro criado na própria classe 
+  void cozinhar() {
+    if (isprecisaCozinhar = true) {
+      print('Pronto, o $nome está pronto para ser cozido!');
+    } else {
+      print('Não é necessária a cocção do $nome');
+    }
+  }
 }
 
 class Citricas {
